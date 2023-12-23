@@ -1,0 +1,30 @@
+<div class="sign-in">
+  <mat-card class="sign-in__card">
+    <div class="sign-in__title">Sign In</div>
+    <form class="sign-in__form">
+      <mat-form-field class="sign-in__field" appearance="outline">
+        <mat-label>Email</mat-label>
+        <input
+          name="email"
+          type="email"
+          placeholder="Email"
+          matInput
+        >
+      </mat-form-field>
+      <mat-form-field class="sign-in__field" appearance="outline">
+        <mat-label>Password</mat-label>
+        <input
+          name="password"
+          type="password"
+          placeholder="Password"
+          matInput
+        >
+      </mat-form-field>
+      <app-button>SIGN IN</app-button>
+    </form>
+    <div class="sign-in__footer">
+      <span>Don’t have an account? </span>
+      <a routerLink="/auth/sign-up">Sign Up</a>
+    </div>
+  </mat-card>
+</div>
