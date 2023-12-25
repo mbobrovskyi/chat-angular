@@ -4,7 +4,7 @@ import { MatInputModule } from "@angular/material/input";
 import { ReactiveFormsModule } from "@angular/forms";
 import { MatButtonModule } from "@angular/material/button";
 import {RouterLink} from "@angular/router";
-import {ButtonComponent} from "../../ui-kit/button/button.component";
+import {ButtonComponent} from "../../../ui-kit/button/button.component";
 
 @Component({
   selector: 'app-sign-in',
